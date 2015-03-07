@@ -1,0 +1,59 @@
+button {
+    width: 37px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+input {
+    height: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.rowWrap {
+    width: 235px;
+    padding-left: 25px;
+    background-color: #545454;
+    padding-bottom: 2px;
+    padding-top: 8px;
+}
+
+.topRow {
+    padding-top: 20px;
+}
+
+.bottomRow {
+    padding-bottom: 20px;
+    border-radius: 0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}
+
+.calcName {
+    color: #ced039;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-top: 18px;
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+}
+
+p {
+    text-align: right;
+}
+
+.screenWrap {
+    padding-top: 0px;
+}
+
+#TI, #Hexus {
+    display: inline;
+    font-size: 13px;
+}
+
+#screen {
+    width: 184px;
+}
