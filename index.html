@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div id="wrapper">
+        <br>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap calcName">
+                    <p id="Hexus">Hexus Instruments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p id="TI">TI-CH 90</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap screenWrap">
+                    <input id="screen" maxlength="40" readonly>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap">
+                    <button class="btn btn-default" id="7">7</button>
+                    <button class="btn btn-default" id="8">8</button>
+                    <button class="btn btn-default" id="9">9</button>
+                    <button class="btn btn-default" id="/">/</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap">
+                    <button class="btn btn-default" id="4">4</button>
+                    <button class="btn btn-default" id="5">5</button>
+                    <button class="btn btn-default" id="6">6</button>
+                    <button class="btn btn-default" id="*">x</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap">
+                    <button class="btn btn-default" id="1">1</button>
+                    <button class="btn btn-default" id="2">2</button>
+                    <button class="btn btn-default" id="3">3</button>
+                    <button class="btn btn-default" id="-">-</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-5 col-lg-3">
+                <div class="rowWrap bottomRow">
+                    <button class="btn btn-default" id="C">C</button>
+                    <button class="btn btn-default" id="0">0</button>
+                    <button class="btn btn-default" id="=">=</button>
+                    <button class="btn btn-default" id="+">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/lib/require.js" data-main="js/app.js"></script>
+</body>
+</html>
